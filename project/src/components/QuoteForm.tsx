@@ -9,83 +9,83 @@ interface Equipment {
   image: string;
 }
 
-const equipmentList: Equipment[] = [
+const equipmentItems: Equipment[] = [
   {
     id: 'bollegraaf',
-    name: 'Bollegraaf',
-    description: 'Advanced recycling and sorting solutions',
+    name: 'Bollegraaf Balers',
+    description: 'High-performance balers for various materials.',
     image: '/Images/bollegraaf.jpg'
   },
   {
     id: 'lubo',
-    name: 'Lubo Screening',
-    description: 'High-performance screening technology',
+    name: 'Lubo Screens',
+    description: 'Durable and efficient screening solutions.',
     image: '/Images/lubo.jpg'
   },
   {
     id: 'tomra',
-    name: 'TOMRA Optical Sorting',
-    description: 'State-of-the-art optical sorting systems',
+    name: 'TOMRA Optical Sorters',
+    description: 'Advanced optical sorting systems.',
     image: '/Images/tomra.jpg'
   },
   {
     id: 'pellenc',
-    name: 'Pellenc ST Optical Sorting',
-    description: 'Precision optical sorting solutions',
+    name: 'Pellenc ST Optical Sorters',
+    description: 'Innovative optical sorting for various waste streams.',
     image: '/Images/pellenc.jpg'
   },
   {
     id: 'walair',
-    name: 'Walair Density Separation',
-    description: 'Advanced density separation technology',
+    name: 'Walair Air Separation',
+    description: 'Efficient air separation technology.',
     image: '/Images/walair.jpg'
   },
   {
     id: 'smicon',
-    name: 'Smicon Food Waste Depackagers',
-    description: 'Efficient food waste processing systems',
+    name: 'Smicon Depackaging Equipment',
+    description: 'Specialized depackaging solutions.',
     image: '/Images/smicon.jpg'
   },
   {
     id: 'gunther',
-    name: 'GÜNTHER Screens',
-    description: 'High-quality screening solutions',
+    name: 'Gunther Balers',
+    description: 'Reliable and robust baling machines.',
     image: '/Images/gunther.jpg'
   },
   {
     id: 'centriair',
-    name: 'Centriair',
-    description: 'Innovative air separation technology',
+    name: 'Centriair Odor Control',
+    description: 'Advanced odor control systems for recycling facilities.',
     image: '/Images/centriair.jpg'
   },
   {
     id: 'greyparrot',
-    name: 'Greyparrot AI',
-    description: 'AI-powered waste analytics',
+    name: 'Greyparrot AI-Powered Robotics',
+    description: 'Robotic sorting with artificial intelligence.',
     image: '/Images/greyparrot.jpg'
   },
   {
     id: 'densimetric',
-    name: 'Densimetric Table',
-    description: 'Precision density separation',
+    name: 'Densimetric Density Separators',
+    description: 'Density-based material separation.',
     image: '/Images/densimetric.jpg'
   },
   {
     id: 'beefoam',
-    name: 'BeeFoam Dust Suppression System',
-    description: 'Effective dust control solutions',
+    name: 'Beefoam Conveyor Belts',
+    description: 'Durable conveyor belts for heavy-duty applications.',
     image: '/Images/beefoam.jpg'
   },
   {
     id: 'reckelberg',
-    name: 'Reckelberg Environmental Technologies',
-    description: 'Environmental technology solutions',
+    name: 'Reckelberg Screens',
+    description: 'High-capacity screening solutions.',
     image: '/Images/reckelberg.jpg'
   },
   {
     id: 'pre-owned',
-    name: 'Certified Pre-Owned Equipment',
-    description: 'Quality refurbished equipment',
+    name: 'Pre-Owned Equipment',
+    description: 'Quality used recycling equipment.',
     image: '/Images/pre-owned.jpg'
   }
 ];
@@ -147,7 +147,7 @@ const QuoteForm = () => {
             <div className="bg-white rounded-2xl shadow-lg p-8 border border-gray-100">
               <h2 className="text-2xl font-bold text-vd-blue mb-6">Select Equipment</h2>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                {equipmentList.map((equipment) => (
+                {equipmentItems.map((equipment) => (
                   <motion.div
                     key={equipment.id}
                     whileHover={{ scale: 1.02 }}

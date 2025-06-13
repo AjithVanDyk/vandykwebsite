@@ -27,16 +27,16 @@ const Footer = () => {
             <div className="flex space-x-4 mt-4">
               <img 
                 src="/Images/VDRS-lockup-mod-8-19-22-350.png" 
-                alt="ISO Certified" 
-                className="h-8" 
+                alt="Van Dyk Recycling Solutions Logo" 
+                className="h-12 mb-4" 
                 onError={(e) => {
                   e.currentTarget.style.display = 'none';
                 }} 
               />
               <img 
                 src="/Images/image-1749759453479.png" 
-                alt="Award Badge" 
-                className="h-8" 
+                alt="ISO Certification" 
+                className="h-16" 
                 onError={(e) => {
                   e.currentTarget.style.display = 'none';
                 }} 

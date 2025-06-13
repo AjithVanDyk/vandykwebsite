@@ -54,7 +54,7 @@ const Navbar = () => {
             <img
               src="/Images/VDRS-lockup-mod-8-19-22-350.png"
               alt="Van Dyk Recycling Solutions Logo"
-              className={`h-10 transition-all duration-300 ${scrolled || location.pathname !== '/' ? 'filter invert-0 brightness-100' : 'filter brightness-0 invert'}`}
+              className={`h-12 transition-all duration-300 ${scrolled || location.pathname !== '/' ? 'filter invert-0 brightness-100' : 'filter brightness-0 invert'}`}
             />
           </Link>
 

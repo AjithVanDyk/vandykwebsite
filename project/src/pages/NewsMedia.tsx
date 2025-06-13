@@ -66,6 +66,60 @@ const NewsMedia = () => {
       readTime: '7 min read',
       image: '/Images/image-1749759479881.png',
       featured: false
+    },
+    {
+      id: 7,
+      title: 'Van Dyk Appoints New Sales Team Member',
+      excerpt: '',
+      date: 'May 10, 2024',
+      image: '/Images/image-1749759499434.png',
+      category: 'Company News',
+      link: '#'
+    },
+    {
+      id: 8,
+      title: 'Innovative MRF Solutions Launched',
+      excerpt: '',
+      date: 'April 25, 2024',
+      image: '/Images/image-1749759495211.png',
+      category: 'Product Innovations',
+      link: '#'
+    },
+    {
+      id: 9,
+      title: 'Recycling Industry Trends 2024',
+      excerpt: '',
+      date: 'March 15, 2024',
+      image: '/Images/image-1749759502636.png',
+      category: 'Industry Insights',
+      link: '#'
+    },
+    {
+      id: 10,
+      title: 'Sustainability Partnership Announced',
+      excerpt: '',
+      date: 'February 1, 2024',
+      image: '/Images/image-1749759490576.png',
+      category: 'Partnerships',
+      link: '#'
+    },
+    {
+      id: 11,
+      title: 'Waste-to-Energy Technologies',
+      excerpt: '',
+      date: 'January 10, 2024',
+      image: '/Images/image-1749759487003.png',
+      category: 'Technology',
+      link: '#'
+    },
+    {
+      id: 12,
+      title: 'New Baler Line Introduced',
+      excerpt: '',
+      date: 'December 5, 2023',
+      image: '/Images/image-1749759479881.png',
+      category: 'Product Launch',
+      link: '#'
     }
   ];
 
