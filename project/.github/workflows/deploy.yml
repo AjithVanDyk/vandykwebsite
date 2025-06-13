@@ -2,7 +2,11 @@ name: Deploy to GitHub Pages
 
 on:
   push:
+<<<<<<< HEAD
     branches: [ master ]
+=======
+    branches: [ master ] # Ensure this is 'master'
+>>>>>>> 5aff5b4 (Fix: Update GitHub Actions workflow for master branch deployment and force re-read)
   workflow_dispatch:
 
 permissions:
